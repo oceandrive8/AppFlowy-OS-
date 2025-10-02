@@ -119,6 +119,7 @@ This project is a **simplified clone of AppFlowy**, created for learning, contri
 ---
 
 ## Project Structure
+
 ```plaintext
 APPFLOWY-OS-
 ├── .githooks
@@ -128,13 +129,11 @@ APPFLOWY-OS-
 ├── frontend
 └── project.inlang
 
-## How to Contribute
-
-Contributions make the open-source community a fantastic place to **learn, inspire, and create**. Any contributions are **greatly appreciated**.
-
-- **Coders:** Fix bugs, add features, or improve code structure  
-- **Designers:** Improve UI, create icons, or enhance UX  
-- **Everyone:** Test the app, update documentation, add translations  
+How to Contribute
+Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions are greatly appreciated.
+Coders: Fix bugs, add features, or improve code structure
+Designers: Improve UI, create icons, or enhance UX
+Everyone: Test the app, update documentation, add translations
 
 **Getting Started:**  
 1. Fork the repository  
