@@ -129,11 +129,13 @@ APPFLOWY-OS-
 ├── frontend
 └── project.inlang
 
-How to Contribute
-Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions are greatly appreciated.
-Coders: Fix bugs, add features, or improve code structure
-Designers: Improve UI, create icons, or enhance UX
-Everyone: Test the app, update documentation, add translations
+## How to Contribute
+
+Contributions make the open-source community a fantastic place to **learn, inspire, and create**. Any contributions are **greatly appreciated**.
+
+- **Coders:** Fix bugs, add features, or improve code structure  
+- **Designers:** Improve UI, create icons, or enhance UX  
+- **Everyone:** Test the app, update documentation, add translations  
 
 **Getting Started:**  
 1. Fork the repository  
@@ -156,6 +158,11 @@ See the full [Contributing Guide](https://docs.appflowy.io/docs/documentation/so
 
 ---
 
+## Join the Community to Build AppFlowy Together
+
+<a href="https://github.com/AppFlowy-IO/AppFlowy/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AppFlowy-IO/AppFlowy" />
+</a>
 
 ---
 
@@ -173,6 +180,4 @@ We uphold three core values:
 
 ## License
 
-Distributed under the **AGPLv3 License**. See [`LICENSE.md`]( https://github.com/oceandrive8/AppFlowy-OS-/blob/main/LICENSE) for details.
-- [contrib.rocks](https://contrib.rocks)
-- [flutter_chat_ui](https://pub.dev/packages/flutter_chat_ui)
+Distributed under the **AGPLv3 License**. See [`LICENSE.md`](https://github.com/AppFlowy-IO/AppFlowy/blob/main/LICENSE) for details.
