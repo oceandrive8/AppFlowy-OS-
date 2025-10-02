@@ -57,101 +57,127 @@ AppFlowy is the AI workspace where you achieve more without losing control of yo
 
 - [Rust](https://www.rust-lang.org/)
 
-## Stay Up-to-Date
+# AppFlowy Clone
 
-<p align="center"><img src="https://github.com/AppFlowy-IO/appflowy/blob/main/doc/imgs/howtostar.gif" alt="AppFlowy Github - how to star the repo" width="100%" /></p>
+A simplified, open-source clone of AppFlowy, a modern productivity and knowledge management tool. AppFlowy is designed to be **community-driven, extensible, and privacy-focused**, allowing individuals and teams to create apps that suit their needs.
 
-## Getting Started with development
+---
 
-Please view the [documentation](https://docs.appflowy.io/docs/documentation/appflowy/from-source) for OS specific
-development instructions
+## Table of Contents
 
-## Roadmap
+- [Project Overview](#project-overview)  
+- [User Installation](#user-installation)  
+- [Self-Hosting AppFlowy](#self-hosting-appflowy)  
+- [Built With](#built-with)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Stay Up-to-Date](#stay-up-to-date)  
+- [Getting Started with Development](#getting-started-with-development)  
+- [Roadmap](#roadmap)  
+- [Releases](#releases)  
+- [How to Contribute](#how-to-contribute)  
+- [Translations 🌎🗺](#translations-)  
+- [Join the Community](#join-the-community-to-build-appflowy-together)  
+- [Why Are We Building This?](#why-are-we-building-this)  
+- [License](#license)  
 
-- [AppFlowy Roadmap ReadMe](https://docs.appflowy.io/docs/appflowy/roadmap)
-- [AppFlowy Public Roadmap](https://github.com/orgs/AppFlowy-IO/projects/5/views/12)
+---
 
-If you'd like to propose a feature, submit a feature
-request [here](https://github.com/AppFlowy-IO/AppFlowy/issues/new?assignees=&labels=&template=feature_request.yaml&title=%5BFR%5D+) <br/>
-If you'd like to report a bug, submit a bug
-report [here](https://github.com/AppFlowy-IO/AppFlowy/issues/new?assignees=&labels=&template=bug_report.yaml&title=%5BBug%5D+)
+## Project Overview
 
-## **Releases**
+This project is a **simplified clone of AppFlowy**, created for learning, contribution, and experimentation. It allows contributors to explore a productivity tool built with **Flutter** and **Rust** (backend) and provides core task management features in a lightweight format. The goal is to offer a **community-driven learning project** while maintaining a working app for testing and contribution.
 
-Please see the [changelog](https://appflowy.com/what-is-new) for more details about a given release.
+---
 
-## Contributing
+## User Installation
 
-Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make
-are **greatly appreciated**. Please look
-at [Contributing to AppFlowy](https://docs.appflowy.io/docs/documentation/software-contributions/contributing-to-appflowy)
-for details.
+- [Download AppFlowy Desktop (macOS, Windows, and Linux)](https://github.com/AppFlowy-IO/AppFlowy/releases)  
+- Other channels: [FlatHub](https://flathub.org/apps/io.appflowy.AppFlowy), [Snapcraft](https://snapcraft.io/appflowy), [Sourceforge](https://sourceforge.net/projects/appflowy/)  
+- Available on:  
+  - [App Store](https://apps.apple.com/app/appflowy/id6457261352): iPhone  
+  - [Play Store](https://play.google.com/store/apps/details?id=io.appflowy.appflowy): Android 10 or above; ARMv7 not supported  
+- [Self-hosting AppFlowy](https://appflowy.com/docs/self-host-appflowy-overview)  
+- [Source](https://docs.appflowy.io/docs/documentation/appflowy/from-source)  
 
-If your Pull Request is accepted as it fixes a bug, adds functionality, or makes AppFlowy's codebase significantly
-easier to use or understand, **Congratulations!** If your administrative and managerial work behind the scenes sustains
-the community, **Congratulations!** You are now an official contributor to AppFlowy.
+---
+
+## Built With
+
+- [Flutter](https://flutter.dev/) – Cross-platform UI  
+- [Rust](https://www.rust-lang.org/) – Backend and core functionality  
+
+---
+
+## Features
+
+- Add, view, and manage tasks  
+- Basic notes management  
+- Lightweight UI for easy demonstration and testing  
+- Easy-to-extend codebase for new contributors  
+- Supports translations and community contributions  
+
+---
+
+## Project Structure
+APPFLOWY-OS-
+├── .githooks
+├── .github
+├── .idx
+├── doc
+├── frontend
+└── project.inlang
+
+## How to Contribute
+
+Contributions make the open-source community a fantastic place to **learn, inspire, and create**. Any contributions are **greatly appreciated**.
+
+- **Coders:** Fix bugs, add features, or improve code structure  
+- **Designers:** Improve UI, create icons, or enhance UX  
+- **Everyone:** Test the app, update documentation, add translations  
+
+**Getting Started:**  
+1. Fork the repository  
+2. Create a branch: `git checkout -b feature-branch`  
+3. Make changes and commit: `git commit -m "Add new feature"`  
+4. Push your branch: `git push origin feature-branch`  
+5. Open a Pull Request  
+
+See the full [Contributing Guide](https://docs.appflowy.io/docs/documentation/software-contributions/contributing-to-appflowy).
+
+---
 
 ## Translations 🌎🗺
 
 [![translation badge](https://inlang.com/badge?url=github.com/AppFlowy-IO/AppFlowy)](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy?ref=badge)
 
-To add translations, you can manually edit the JSON translation files in `/frontend/resources/translations`, use
-the [inlang online editor](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy), or
-run `npx inlang machine translate` to add missing translations.
+- Edit JSON translation files in `/frontend/resources/translations`  
+- Use the [Inlang Editor](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy)  
+- Run `npx inlang machine translate` to add missing translations  
 
-## Join the community to build AppFlowy together
+---
+
+## Join the Community to Build AppFlowy Together
 
 <a href="https://github.com/AppFlowy-IO/AppFlowy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AppFlowy-IO/AppFlowy" />
 </a>
 
+---
+
 ## Why Are We Building This?
 
-Notion has been our favourite project and knowledge management tool in recent years because of its aesthetic appeal and
-functionality. Our team uses it daily, and we are on its paid plan. However, as we all know, Notion has its limitations.
-These include weak data security and poor compatibility with mobile devices. Likewise, alternative collaborative
-workplace management tools also have their constraints.
+Notion is a popular knowledge management tool, but it has limitations: weak data security, poor mobile compatibility, and restricted customization. AppFlowy aims to **give individuals and enterprises a flexible, secure, and extendable platform** for productivity.
 
-The limitations we encountered using these tools and our past work experience with collaborative productivity tools have
-led to our firm belief that there is a glass ceiling on what's possible for these tools in the future. This emanates
-from the fact that these tools will probably struggle to scale horizontally at some point and be forced to prioritize a
-proportion of customers whose needs differ from the rest. While decision-makers want a workplace OS, it is impossible to
-come up with a one-size fits all solution in such a fragmented market.
+We uphold three core values:  
 
-When a customer's evolving core needs are not satisfied, they either switch to another or build one from the ground up,
-in-house. Consequently, they either go under another ceiling or buy an expensive ticket to learn a hard lesson. This is
-a requirement for many resources and expertise, building a reliable and easy-to-use collaborative tool, not to mention
-the speed and native experience. The same may apply to individual users as well.
+- Data privacy first  
+- Reliable native experience  
+- Community-driven extensibility  
 
-All these restrictions necessitate our mission - to make it possible for anyone to create apps that suit their needs
-well.
-
-- To individuals, we would like to offer Notion's functionality, data security, and cross-platform native experience.
-- To enterprises and hackers, AppFlowy is dedicated to offering building blocks and collaboration infra services to
-  enable you to make apps on your own. Moreover, you have 100% control of your data. You can design and modify AppFlowy
-  your way, with a single codebase written in Flutter and Rust supporting multiple platforms armed with long-term
-  maintainability.
-
-We decided to achieve this mission by upholding the three most fundamental values:
-
-- Data privacy first
-- Reliable native experience
-- Community-driven extensibility
-
-We do not claim to outperform Notion in terms of functionality and design, at least for now. Besides, our priority
-doesn't lie in more functionality at the moment. Instead, we would like to cultivate a community to democratize the
-knowledge and wheels of making complex workplace management tools while enabling people and businesses to create
-beautiful things on their own by equipping them with a versatile toolbox of building blocks.
+---
 
 ## License
 
-Distributed under the AGPLv3 License. See [`LICENSE.md`](https://github.com/AppFlowy-IO/AppFlowy/blob/main/LICENSE) for
-more information.
-
-## Acknowledgments
-
-Special thanks to these amazing projects which help power AppFlowy:
-
-- [cargo-make](https://github.com/sagiegurari/cargo-make)
+Distributed under the **AGPLv3 License**. See [`LICENSE.md`]( https://github.com/oceandrive8/AppFlowy-OS-/blob/main/LICENSE) for details.
 - [contrib.rocks](https://contrib.rocks)
 - [flutter_chat_ui](https://pub.dev/packages/flutter_chat_ui)
