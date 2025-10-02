@@ -119,6 +119,7 @@ This project is a **simplified clone of AppFlowy**, created for learning, contri
 ---
 
 ## Project Structure
+```plaintext
 APPFLOWY-OS-
 ├── .githooks
 ├── .github
@@ -156,11 +157,6 @@ See the full [Contributing Guide](https://docs.appflowy.io/docs/documentation/so
 
 ---
 
-## Join the Community to Build AppFlowy Together
-
-<a href="https://github.com/AppFlowy-IO/AppFlowy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AppFlowy-IO/AppFlowy" />
-</a>
 
 ---
 
