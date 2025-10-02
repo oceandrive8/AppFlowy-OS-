@@ -128,6 +128,7 @@ APPFLOWY-OS-
 ├── doc
 ├── frontend
 └── project.inlang
+```
 
 ## How to Contribute
 
